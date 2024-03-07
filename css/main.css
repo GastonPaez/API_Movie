@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+}
+.pelicula {
+    margin-bottom: 20px;
+}
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.pelicula .descripcion {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pelicula h2 {
+    margin-top: 0;
+}
+.pelicula p {
+    margin-bottom: 5px;
+}
+.rating i {
+    color: #ffc107;
+    cursor: pointer;
+}
+.rating i.active {
+    color: #f39c12;
+}
